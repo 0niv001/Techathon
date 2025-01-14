@@ -14,9 +14,5 @@ public class HelloController {
         return "hello" + name;
     }
 
-    @GetMapping("/MainPage")
-    public String mainPage(@RequestParam(defaultValue = "")String name, Model model ) {
-        model.addAttribute("name", name);
-        return "MainPage";
-    }
+
 }
