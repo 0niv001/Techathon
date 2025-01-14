@@ -8,8 +8,15 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class HelloController {
 
-    @GetMapping("/index")
-    public String sayHello(Model model) {
-        return "index";
+    @GetMapping("/hello")
+    public String sayHello(@RequestParam(defaultValue = "World") String name, Model model) {
+        model.addAttribute("name", name);
+        return "hello" + name;
+    }
+
+    @GetMapping("/MainPage")
+    public String mainPage(@RequestParam(defaultValue = "")String name, Model model ) {
+        model.addAttribute("name", name);
+        return "MainPage";
     }
 }
