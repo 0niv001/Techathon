@@ -34,4 +34,10 @@ public class MainPageController {
         return "savingsArticle";
 
     }
+
+    @GetMapping("/article/mortgagesCalculator")
+    public String mortgagesCalculator(Model model) {
+        return "mortgagesCalculator";
+
+    }
 }
