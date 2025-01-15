@@ -1,126 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <title>Blog Page</title>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Blog Page</title>
 </head>
 <body>
 
+<!-- Navbar -->
+<!-- Navbar -->
+<nav class="bg-white dark:bg-gray-800" id="navbar" th:fragments="nav">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div class="flex shrink-0 items-center">
+                    <img class="h-8 w-auto"
+                         src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2023%2F03%2FFinancial-Conduct-Authority-Logo.png&f=1&nofb=1&ipt=9ad2f4df3774d5d832eae9067e42afaad4fc3e86b5880bfed90dd1a54ff032f3&ipo=images">
+                </div>
+                <div class="hidden sm:ml-6 sm:block">
+                    <div class="flex space-x-4">
+                        <a href="#" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+                           aria-current="page">Home</a>
+                        <a href="#"
+                           class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Learn</a>
+                        <a href="#"
+                           class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                           onclick="window.location.href='/mainpage'">Blog</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                <button type="button"
+                        class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <span class="absolute -inset-1.5"></span>
+                    <span class="sr-only">View notifications</span>
+                    <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                         aria-hidden="true" data-slot="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"/>
+                    </svg>
+                </button>
+
+                <!-- Profile dropdown -->
+                <div class="relative ml-3">
+                    <div>
+                        <button type="button"
+                                class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                id="user-menu-button" aria-expanded="false" aria-haspopup="true"
+                                onclick="window.location.href='/login'">
+                            <span class="absolute -inset-1.5"></span>
+                            <span class="sr-only">Open user menu</span>
+                            <img class="size-8 rounded-full"
+                                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.qR0GP0edU8z3CIOxMTAnzAHaHa%26pid%3DApi&f=1&ipt=6115c4c4e6b451536666d378e9b00c602d6c57b188f7579f6e3ddc7b298bf2a9&ipo=images"
+                                 alt="">
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
 <!-- component --><!-- component -->
 <section class="bg-white dark:bg-gray-900">
-  <div class="container px-6 py-10 mx-auto">
-    <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Information on Finance</h1>
+    <div class="container px-6 py-10 mx-auto">
+        <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">Information on
+            Finance</h1>
 
-    <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
-      <div class="lg:flex">
-        <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+        <div class="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
+            <div class="lg:flex">
+                <img class="object-cover w-full h-56 rounded-lg lg:w-64"
+                     src="https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                     alt="">
 
-        <div class="flex flex-col justify-between py-6 lg:mx-6">
-          <a href="/article/investmentArticle" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-            Investment Resources
-          </a>
+                <div class="flex flex-col justify-between py-6 lg:mx-6">
+                    <a href="/article/investmentArticle"
+                       class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                        Investment Resources
+                    </a>
 
-          <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                </div>
+            </div>
+
+            <div class="lg:flex">
+                <img class="object-cover w-full h-56 rounded-lg lg:w-64"
+                     src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                     alt="">
+
+                <div class="flex flex-col justify-between py-6 lg:mx-6">
+                    <a href="/article/mortgagesArticle"
+                       class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                        Mortgages Resources
+                    </a>
+
+                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                </div>
+            </div>
+            <div class="lg:flex">
+                <img class="object-cover w-full h-56 rounded-lg lg:w-64"
+                     src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                     alt="">
+
+                <div class="flex flex-col justify-between py-6 lg:mx-6">
+                    <a href="/article/mortgagesCalculator"
+                       class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                        Mortgages Calculator
+                    </a>
+
+                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                </div>
+            </div>
+            <div class="lg:flex">
+                <img class="object-cover w-full h-56 rounded-lg lg:w-64"
+                     src="https://images.unsplash.com/photo-1544654803-b69140b285a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                     alt="">
+
+                <div class="flex flex-col justify-between py-6 lg:mx-6">
+                    <a href="/article/pensionArticle"
+                       class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                        Pension Resources
+                    </a>
+
+                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 25 November 2020</span>
+                </div>
+            </div>
+
+
+            <div class="lg:flex">
+                <img class="object-cover w-full h-56 rounded-lg lg:w-64"
+                     src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                     alt="">
+
+                <div class="flex flex-col justify-between py-6 lg:mx-6">
+                    <a href="/article/savingsArticle"
+                       class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                        Savings Resources
+                    </a>
+
+                    <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <div class="lg:flex">
-        <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
-
-        <div class="flex flex-col justify-between py-6 lg:mx-6">
-          <a href="/article/mortgagesArticle" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-            Mortgages Resources
-          </a>
-
-          <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
-        </div>
-      </div>
-        <div class="lg:flex">
-            <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
-
-        <div class="flex flex-col justify-between py-6 lg:mx-6">
-            <a href="/article/mortgagesCalculator" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-                Mortgages Calculator
-            </a>
-
-            <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
-        </div>
-        </div>
-      <div class="lg:flex">
-        <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1544654803-b69140b285a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
-
-        <div class="flex flex-col justify-between py-6 lg:mx-6">
-          <a href="/article/pensionArticle" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-           Pension Resources
-          </a>
-
-          <span class="text-sm text-gray-500 dark:text-gray-300">On: 25 November 2020</span>
-        </div>
-      </div>
-
-
-
-
-      <div class="lg:flex">
-        <img class="object-cover w-full h-56 rounded-lg lg:w-64" src="https://images.unsplash.com/photo-1624996379697-f01d168b1a52?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
-
-        <div class="flex flex-col justify-between py-6 lg:mx-6">
-          <a href="/article/savingsArticle" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
-            Savings Resources
-          </a>
-
-          <span class="text-sm text-gray-500 dark:text-gray-300">On: 20 October 2019</span>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
-<div class="overflow-x-hidden bg-gray-100">
-  <nav class="px-6 py-4 bg-white shadow">
-    <div class="container flex flex-col mx-auto md:flex-row md:items-center md:justify-between">
-      <div class="flex items-center justify-between">
-        <div>
-          <a href="#" class="text-xl font-bold text-gray-800 md:text-2xl">Trust North</a>
+
+    <footer class="bg-white dark:bg-gray-800">
+        <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-6 md:mb-0">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2023%2F03%2FFinancial-Conduct-Authority-Logo.png&f=1&nofb=1&ipt=9ad2f4df3774d5d832eae9067e42afaad4fc3e86b5880bfed90dd1a54ff032f3&ipo=images"
+                         class="h-8 me-3" alt="FCA Logo"/>
+                </div>
+                <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact Us</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="" class="hover:underline">Email</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                        <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                            <li class="mb-4">
+                                <a href="#" class="hover:underline">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
+            <div class="sm:flex sm:items-center sm:justify-between">
+          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 Robert Walters™. All Rights
+              Reserved.
+          </span>
+            </div>
         </div>
-        <div>
-          <button type="button" class="block text-gray-800 hover:text-gray-600 focus:text-gray-600 focus:outline-none md:hidden">
-            <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
-              <path d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z">
-              </path>
-            </svg>
-          </button>
-        </div>
-      </div>
-      <div class="flex-col hidden md:flex md:flex-row md:-mx-4">
-        <a href="/index" class="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0">Home</a>
-        <a href="#" class="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0">Blog</a>
-        <a href="#" class="my-1 text-gray-800 hover:text-blue-500 md:mx-4 md:my-0">About us</a>
-      </div>
-    </div>
-  </nav>
-  <footer class="px-6 py-2 text-gray-100 bg-gray-800">
-    <div class="container flex flex-col items-center justify-between mx-auto md:flex-row"><a href="#"
-                                                                                             class="text-2xl font-bold">Trust North</a>
-      <p class="mt-2 md:mt-0">All rights reserved 2020.</p>
-      <div class="flex mt-4 mb-2 -mx-2 md:mt-0 md:mb-0"><a href="#"
-                                                           class="mx-2 text-gray-100 hover:text-gray-400"><svg viewBox="0 0 512 512"
-                                                                                                               class="w-4 h-4 fill-current">
-        <path
-                d="M444.17,32H70.28C49.85,32,32,46.7,32,66.89V441.61C32,461.91,49.85,480,70.28,480H444.06C464.6,480,480,461.79,480,441.61V66.89C480.12,46.7,464.6,32,444.17,32ZM170.87,405.43H106.69V205.88h64.18ZM141,175.54h-.46c-20.54,0-33.84-15.29-33.84-34.43,0-19.49,13.65-34.42,34.65-34.42s33.85,14.82,34.31,34.42C175.65,160.25,162.35,175.54,141,175.54ZM405.43,405.43H341.25V296.32c0-26.14-9.34-44-32.56-44-17.74,0-28.24,12-32.91,23.69-1.75,4.2-2.22,9.92-2.22,15.76V405.43H209.38V205.88h64.18v27.77c9.34-13.3,23.93-32.44,57.88-32.44,42.13,0,74,27.77,74,87.64Z">
-        </path>
-      </svg></a><a href="#" class="mx-2 text-gray-100 hover:text-gray-400"><svg viewBox="0 0 512 512"
-                                                                                class="w-4 h-4 fill-current">
-        <path
-                d="M455.27,32H56.73A24.74,24.74,0,0,0,32,56.73V455.27A24.74,24.74,0,0,0,56.73,480H256V304H202.45V240H256V189c0-57.86,40.13-89.36,91.82-89.36,24.73,0,51.33,1.86,57.51,2.68v60.43H364.15c-28.12,0-33.48,13.3-33.48,32.9V240h67l-8.75,64H330.67V480h124.6A24.74,24.74,0,0,0,480,455.27V56.73A24.74,24.74,0,0,0,455.27,32Z">
-        </path>
-      </svg></a><a href="#" class="mx-2 text-gray-100 hover:text-gray-400"><svg viewBox="0 0 512 512"
-                                                                                class="w-4 h-4 fill-current">
-        <path
-                d="M496,109.5a201.8,201.8,0,0,1-56.55,15.3,97.51,97.51,0,0,0,43.33-53.6,197.74,197.74,0,0,1-62.56,23.5A99.14,99.14,0,0,0,348.31,64c-54.42,0-98.46,43.4-98.46,96.9a93.21,93.21,0,0,0,2.54,22.1,280.7,280.7,0,0,1-203-101.3A95.69,95.69,0,0,0,36,130.4C36,164,53.53,193.7,80,211.1A97.5,97.5,0,0,1,35.22,199v1.2c0,47,34,86.1,79,95a100.76,100.76,0,0,1-25.94,3.4,94.38,94.38,0,0,1-18.51-1.8c12.51,38.5,48.92,66.5,92.05,67.3A199.59,199.59,0,0,1,39.5,405.6,203,203,0,0,1,16,404.2,278.68,278.68,0,0,0,166.74,448c181.36,0,280.44-147.7,280.44-275.8,0-4.2-.11-8.4-.31-12.5A198.48,198.48,0,0,0,496,109.5Z">
-        </path>
-      </svg></a>
-      </div>
-    </div>
-  </footer>
+</div>
+</footer>
 </div>
