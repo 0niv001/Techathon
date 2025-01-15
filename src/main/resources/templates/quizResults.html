@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Financial Literacy</title>
+</head>
+
+<body class="h-screen flex items-center justify-center">
+<div class="flex flex-col space-y-4">
+  <!--  Display the quiz results to the user-->
+  <div class="block max-w-lg p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Quiz Results</h5>
+    <p class="font-normal text-gray-700 dark:text-gray-400"> Your Score: <span th:text="${score}"></span>/3</p>
+    <!--  Display this if the user answered at least 2 questions correct-->
+    <p class="font-normal text-gray-700 dark:text-gray-400"
+       th:if="${score >= 2}">Well done, you passed the quiz and earned a badge! You can view all your badges on your profile</p>
+    <!--  Display this if the user answered less than two questions correct-->
+    <p class="font-normal text-gray-700 dark:text-gray-400"
+       th:if="${score < 2}">Sorry, but you have failed the quiz. Try again to earn a badge.</p>
+  </div>
+</div>
+</body>
+</html>

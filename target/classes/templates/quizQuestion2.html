@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Financial Literacy</title>
+</head>
+<body class="h-screen flex items-center justify-center">
+
+<div class="flex flex-col space-y-4">
+    <form method="post" action="/quiz/question2">
+        <!--    Display the second question to the user-->
+        <div class="block w-auto p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Question 2</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">
+                Suppose you owe £50,000 on a mortgage at an Annual Percentage Rate of six per cent.
+                If you didn't make any payments on this mortgage how much would you owe in total after one year?</p>
+        </div>
+
+        <!--    Display the three buttons as answer options-->
+        <button name="answer" value="wrongAnswer3" class="block my-4 w-full p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-white-100 dark:bg-white-800 dark:border-white-700 dark:hover:bg-gray-600">
+            Answer 1: Less than £50,000
+        </button>
+
+        <button name="answer" value="correctAnswer2" class="block my-4 w-full p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-white-100 dark:bg-white-800 dark:border-white-700 dark:hover:bg-gray-600">
+            Answer 2: £50,000 - £54,999
+        </button>
+
+        <button name="answer" value="wrongAnswer4" class="block my-4 w-full p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-white-100 dark:bg-white-800 dark:border-white-700 dark:hover:bg-gray-600">
+            Answer 3: £55,000 - £59,999
+        </button>
+    </form>
+</div>
+</body>
+</html>

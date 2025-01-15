@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Financial Literacy</title>
+</head>
+<body class="h-screen flex items-center justify-center">
+
+<div class="flex flex-col space-y-4">
+  <form method="post" action="/quiz/question1">
+    <!--    Display the first question to the user-->
+    <div class="block w-auto p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Question 1</h5>
+      <p class="font-normal text-gray-700 dark:text-gray-400"> Suppose a 15-year mortgage and a 30-year mortgage,
+        both with the same Annual Percentage Rate and the same amount borrowed.
+        The total amount repaid will be:</p>
+    </div>
+
+    <!--    Display the three buttons as answer options-->
+    <button name="answer" value="correctAnswer1" class="block my-4 w-full p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-white-100 dark:bg-white-800 dark:border-white-700 dark:hover:bg-gray-600">
+      Answer 1: Higher for the 30-year mortgage
+    </button>
+
+    <button name="answer" value="wrongAnswer1" class="block my-4 w-full p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-white-100 dark:bg-white-800 dark:border-white-700 dark:hover:bg-gray-600">
+      Answer 2: Higher for the 15-year mortgage
+    </button>
+
+    <button name="answer" value="wrongAnswer2" class="block my-4 w-full p-6 bg-white border border-white-200 rounded-lg shadow hover:bg-white-100 dark:bg-white-800 dark:border-white-700 dark:hover:bg-gray-600">
+      Answer 3: The total amount repaid on both mortgages will be the same
+    </button>
+  </form>
+</div>
+</body>
+</html>

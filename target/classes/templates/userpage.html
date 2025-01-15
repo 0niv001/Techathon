@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>Financial literacy</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Financial Literacy</title>
 </head>
 <body class="bg-white dark:bg-gray-800">
-
+<!-- NavBar -->
 <!-- Navbar -->
 <nav class="bg-white dark:bg-gray-800" id="navbar" th:fragments="nav">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -62,39 +62,15 @@
     </div>
 </nav>
 
-<!-- Hero Card -->
 
-<section>
-    <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
-        <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            Welcome to Financial Literacy </h1>
-        <p class="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 lg:px-48 dark:text-gray-400">A
-            website providing key knowledge and skills to help everyone manage their finances </p>
-        <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center">
-            <a class="inline-flex justify-center items-center py-3 px-5 text-sm font-medium bg-slate-200 rounded-lg hover:bg-teal-300">
-                Start Learning
-            </a>
-        </div>
-    </div>
-</section>
-
-<!-- Video -->
-<!-- Video -->
-<video class="w-full h-80 py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16" controls>
-    <source src="" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-
-<!-- Courses -->
-
+<!--Courses-->
 <div>
-    <h2 class="text-4xl px-2  mx-autopy-4 dark:text-white text-center font-bold mb-2">Explore our courses</h2>
+    <h2 class="text-4xl px-2  mx-autopy-4 dark:text-white text-center font-bold mb-2">Continue Learning</h2>
 
     <div class="mx-auto max-w-screen-xl md:flex">
 
         <div class="py-4 px-2 flex justify-center">
-            <a
+            <div
                     class="block max-w-md p-6 border border-gray-200 rounded-lg hover:bg-cyan-400 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-cyan-700  "
                     href=#
                     target="_blank">
@@ -102,33 +78,101 @@
                 <p class="font-normal text-gray-700 dark:text-gray-400 line-clamp-2">Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam, </p>
-            </a>
+
+                <a href="#"
+                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 my-3">
+                    Continue Learning
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+                <div class="w-full bg-gray-200 mt-3 rounded-full dark:bg-gray-700">
+                    <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 45%"> 45%</div>
+                </div>
+                <div class="flex items-center mt-3">
+                    <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                    </svg>
+                    <p class="ms-2 text-sm font-bold text-gray-900 dark:text-white">3.95</p>
+                    <span class="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
+                    <a href="#"
+                       class="text-sm font-medium text-gray-900 underline hover:no-underline dark:text-white">130
+                        reviews</a>
+                </div>
+
+            </div>
+
         </div>
+
         <div class="py-4 px-2 flex justify-center">
-            <a
+            <div
                     class="block max-w-md p-6 border border-gray-200 rounded-lg hover:bg-cyan-400 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-cyan-700  "
                     href=#
                     target="_blank">
-                <h5 class="text-2xl font-bold text-gray-900 dark:text-white">Savings</h5>
+                <h5 class="max-w-md text-2xl font-bold text-gray-900 dark:text-white">Investments</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400 line-clamp-2">Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam, </p>
-            </a>
+
+                <a href="#"
+                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-3">
+                    Continue Learning
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+                <div class="w-full bg-gray-200 mt-3 rounded-full dark:bg-gray-700">
+                    <div
+                            class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 95%"> 95%</div>
+                </div>
+                <div class="flex items-center mt-3">
+                    <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                    </svg>
+                    <p class="ms-2 text-sm font-bold text-gray-900 dark:text-white">4.55</p>
+                    <span class="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
+                    <a href="#"
+                       class="text-sm font-medium text-gray-900 underline hover:no-underline dark:text-white">100
+                        reviews</a>
+                </div>
+            </div>
+
         </div>
 
         <div class="py-4 px-2 flex justify-center">
-            <a class="block max-w-md p-6 border border-gray-200 rounded-lg shadow-md hover:bg-cyan-400 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-cyan-700"
-               href=#
-               target="_blank">
-                <h5 class="text-2xl font-bold text-gray-900 dark:text-white">Investing</h5>
+            <div
+                    class="block max-w-md p-6 border border-gray-200 rounded-lg hover:bg-cyan-400 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-cyan-700  "
+                    href=#
+                    target="_blank">
+                <h5 class="max-w-md text-2xl font-bold text-gray-900 dark:text-white">Savings</h5>
                 <p class="font-normal text-gray-700 dark:text-gray-400 line-clamp-2">Lorem ipsum dolor sit amet,
                     consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                     enim ad minim veniam, </p>
-            </a>
+
+                <a href="#"
+                   class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mt-3">
+                    Continue Learning
+                    <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+                <div class="w-full bg-gray-200 mt-3 rounded-full dark:bg-gray-700">
+                    <div
+                            class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 20%"> 20%</div>
+                </div>
+                <div class="flex items-center mt-3">
+                    <svg class="w-4 h-4 text-yellow-300 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
+                        <path d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"/>
+                    </svg>
+                    <p class="ms-2 text-sm font-bold text-gray-900 dark:text-white">4.95</p>
+                    <span class="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
+                    <a href="#" class="text-sm font-medium text-gray-900 underline hover:no-underline dark:text-white">73 reviews</a>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>
-
 
 <!-- Footer -->
 <footer class="bg-white dark:bg-gray-800">
@@ -170,8 +214,3 @@
     </div>
     </div>
 </footer>
-
-
-
-</body>
-</html>
