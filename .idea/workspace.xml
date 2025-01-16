@@ -4,24 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559f79b7-0641-4676-a530-d6570657a4e1" name="Changes" comment="link button and course list">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="559f79b7-0641-4676-a530-d6570657a4e1" name="Changes" comment="Alignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/controllers/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/courseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/courseList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +176,7 @@
       <workItem from="1733514876578" duration="883000" />
       <workItem from="1737025958905" duration="212000" />
       <workItem from="1737026173266" duration="1120000" />
-      <workItem from="1737031607467" duration="1072000" />
+      <workItem from="1737031607467" duration="1709000" />
     </task>
     <task id="LOCAL-00001" summary="nav links">
       <option name="closed" value="true" />
@@ -216,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737026646972</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Alignment">
+      <option name="closed" value="true" />
+      <created>1737032696418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737032696419</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +231,7 @@
     <MESSAGE value="nav links" />
     <MESSAGE value="Add Course List" />
     <MESSAGE value="link button and course list" />
-    <option name="LAST_COMMIT_MESSAGE" value="link button and course list" />
+    <MESSAGE value="Alignment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alignment" />
   </component>
 </project>
