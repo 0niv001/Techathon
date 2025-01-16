@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class MainPageController {
     @GetMapping("/mainpage")
-    public String mainPage(Model model ) {
+    public String mainpage(Model model ) {
         return "mainpage";
     }
 
