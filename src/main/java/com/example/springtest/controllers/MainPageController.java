@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 public class MainPageController {
     @GetMapping("/mainpage")
     public String mainpage(Model model ) {
-        return "mainpage";
+        return "blog";
     }
 
     @GetMapping("/article/investmentArticle")
