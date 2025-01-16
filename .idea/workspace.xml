@@ -6,7 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="559f79b7-0641-4676-a530-d6570657a4e1" name="Changes" comment="Course List content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/controllers/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/investmentArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/investmentArticle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mortgagesArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mortgagesArticle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pensionArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pensionArticle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/savingsArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/savingsArticle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signUp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,6 +187,7 @@
       <workItem from="1737026173266" duration="1120000" />
       <workItem from="1737031607467" duration="1806000" />
       <workItem from="1737036318775" duration="783000" />
+      <workItem from="1737046872740" duration="540000" />
     </task>
     <task id="LOCAL-00001" summary="nav links">
       <option name="closed" value="true" />
