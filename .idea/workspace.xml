@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae4c2150-bc79-4cda-b0e7-23227429966b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +24,7 @@
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/0niv001/Techathon.git",
-    "accountId": "e5829772-4bbf-4f80-83c0-41cc79fa21d3"
+    "accountId": "7e78fcd4-615b-414a-ac46-e0d9f5c19e54"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -84,7 +83,7 @@
       <updated>1736881182371</updated>
       <workItem from="1736881189910" duration="546000" />
       <workItem from="1736977716624" duration="421000" />
-      <workItem from="1737023395096" duration="879000" />
+      <workItem from="1737022881105" duration="573000" />
     </task>
     <servers />
   </component>
