@@ -14,23 +14,75 @@
 </head>
 <body class="relative">
 
-<div class="w-full border-b flex flex-row flex-wrap items-center p-1">
-    <div class="w-1/5 p-3">
-        <button class="text-2xl font-thin text-gray-600"><i class="fa fa-bars"></i></button>
+
+<!-- Navbar -->
+<nav class="bg-white dark:bg-gray-800" id="navbar">
+    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+        <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+            </div>
+            <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div class="flex shrink-0 items-center">
+                    <img class="h-8 w-auto"
+                         src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Flogos-world.net%2Fwp-content%2Fuploads%2F2023%2F03%2FFinancial-Conduct-Authority-Logo.png&f=1&nofb=1&ipt=9ad2f4df3774d5d832eae9067e42afaad4fc3e86b5880bfed90dd1a54ff032f3&ipo=images">
+                </div>
+                <div class="hidden sm:ml-6 sm:block">
+                    <div class="flex space-x-4">
+                        <a href="#" class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+                           aria-current="page" onclick=window.location.href='/'>Home</a>
+                        <a href="#"
+                           class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onclick="window.location.href='/courseList'">Learn</a>
+                        <a href="#"
+                           class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onclick="window.location.href='/blog'">Blog</a>
+                        <a href="#"
+                           class="rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:bg-gray-700 hover:text-white" onclick="window.location.href='/mortgagesCalculator'">Mortgage Calculator</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+                <button type="button" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+                    English (UK)
+                </button>
+                <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+                <button type="button"
+                        class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <span class="absolute -inset-1.5"></span>
+                    <span class="sr-only">View notifications</span>
+                    <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                         aria-hidden="true" data-slot="icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                              d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0"/>
+                    </svg>
+                </button>
+
+                <!-- Profile dropdown -->
+                <div class="relative ml-3">
+                    <div>
+                        <button type="button"
+                                class="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                id="user-menu-button" aria-expanded="false" aria-haspopup="true"
+                                onclick="window.location.href='/login'">
+                            <span class="absolute -inset-1.5"></span>
+                            <span class="sr-only">Open user menu</span>
+                            <img class="size-8 rounded-full"
+                                 src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.qR0GP0edU8z3CIOxMTAnzAHaHa%26pid%3DApi&f=1&ipt=6115c4c4e6b451536666d378e9b00c602d6c57b188f7579f6e3ddc7b298bf2a9&ipo=images"
+                                 alt="">
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="w-3/5 p-3">
-        <center><img class="w-1/4"
-                     src="https://static.politico.com/11/3c/2571c0ab455e91bf81dc4bab93a6/politico-logo.png"></center>
-    </div>
-    <div class="w-1/5 flex flex-row flex-wrap">
-        <ul class="w-3/4 flex flex-row flex-wrap text-xs font-semibold">
-            <li class="mx-3"><a href="">Finance Literacy</a></li>
-            <li class="mx-3"><a href="">Investment</a></li>
-            <li class="mx-3"><a href="">Resources</a></li>
-        </ul>
-        <div class="w-1/4 text-lg text-gray-600"><a href=""><i class="fa fa-search"></i></a></div>
-    </div>
-</div>
+</nav>
 
 <div class="w-full md:w-2/5 mx-auto">
     <div class="mx-5 my-3 text-sm">
