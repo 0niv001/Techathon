@@ -6,34 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="559f79b7-0641-4676-a530-d6570657a4e1" name="Changes" comment="link button and course list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/courseList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/courseList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/investmentArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/investmentArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mortgagesArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mortgagesArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/mortgagesCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/mortgagesCalculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pensionArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pensionArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/savingsArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/savingsArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/course.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/investmentArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/investmentArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/mortgagesArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/mortgagesArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/mortgagesCalculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/mortgagesCalculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/pensionArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/pensionArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizResults.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/savingsArticle.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/savingsArticle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/signUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/signUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +57,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.SpringTestApplication.executor": "Run",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "julia-user-navigation",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -113,17 +85,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Techathon" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Techathon" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Techathon" />
       <option name="ENV_FILES" value="" />
@@ -161,13 +122,6 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="springTest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtest.SpringTestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="Techathon" />
       <option name="ENV_FILES" value="" />
@@ -180,6 +134,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Techathon" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Techathon" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtest.SpringTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
   <component name="SharedIndexes">
