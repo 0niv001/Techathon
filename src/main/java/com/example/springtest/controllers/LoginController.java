@@ -20,6 +20,11 @@ public class LoginController {
         return "login";
     }
 
+    // Directs the user to their profile page
+    @GetMapping("/userpage")
+    public String userpage() { return "userpage"; }
+
+    // Logs out the user and takes them to the home page
     @GetMapping("/logout")
     public String logout(HttpSession session) {
         session.invalidate();
