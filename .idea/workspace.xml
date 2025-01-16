@@ -5,7 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="559f79b7-0641-4676-a530-d6570657a4e1" name="Changes" comment="link button and course list">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion2.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion3.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizQuestion3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/quizResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/quizResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/course.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/quizQuestion3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/quizQuestion3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userpage.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userpage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +73,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "Spring Boot.SpringTestApplication.executor": "Run",
-    "git-widget-placeholder": "julia-user-navigation",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,6 +101,17 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Techathon" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Techathon" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Techathon" />
       <option name="ENV_FILES" value="" />
@@ -122,6 +149,13 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="springTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtest.SpringTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="Techathon" />
       <option name="ENV_FILES" value="" />
@@ -134,24 +168,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="Techathon" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Techathon" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-    <configuration name="SpringTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="springTest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springtest.SpringTestApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
   </component>
   <component name="SharedIndexes">
@@ -174,6 +190,7 @@
       <workItem from="1733514876578" duration="883000" />
       <workItem from="1737025958905" duration="212000" />
       <workItem from="1737026173266" duration="1120000" />
+      <workItem from="1737031607467" duration="1072000" />
     </task>
     <task id="LOCAL-00001" summary="nav links">
       <option name="closed" value="true" />
