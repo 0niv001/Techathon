@@ -16,4 +16,7 @@ public class MenuController {
     @GetMapping("mortgagesCalculator")
     public String mortgagesCalculator(Model model) { return "mortgagesCalculator"; }
 
+    @GetMapping("courseList")
+    public String courseList(Model model) { return "courseList"; }
+
 }
