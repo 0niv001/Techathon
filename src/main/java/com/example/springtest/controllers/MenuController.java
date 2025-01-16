@@ -9,15 +9,19 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MenuController {
 
+    // Redirect to home
     @GetMapping("index")
     public String startPage(Model model) { return "index"; }
 
+    // Redirect to blog
     @GetMapping("blog")
     public String blogPage(Model model) { return "blog"; }
 
+    // Redirect to calculator
     @GetMapping("mortgagesCalculator")
     public String mortgagesCalculator(Model model) { return "mortgagesCalculator"; }
 
+    // Redirect to course list
     @GetMapping("courseList")
     public String courseList(Model model) { return "courseList"; }
 
