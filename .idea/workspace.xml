@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="559f79b7-0641-4676-a530-d6570657a4e1" name="Changes" comment="Add Course List">
+    <list default="true" id="559f79b7-0641-4676-a530-d6570657a4e1" name="Changes" comment="link button and course list">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/controllers/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/controllers/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springtest/controllers/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springtest/controllers/MenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +173,7 @@
       <workItem from="1732129381989" duration="526000" />
       <workItem from="1733514876578" duration="883000" />
       <workItem from="1737025958905" duration="212000" />
-      <workItem from="1737026173266" duration="404000" />
+      <workItem from="1737026173266" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="nav links">
       <option name="closed" value="true" />
@@ -195,15 +191,35 @@
       <option name="project" value="LOCAL" />
       <updated>1737026373832</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="link button and course list">
+      <option name="closed" value="true" />
+      <created>1737026646972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737026646972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nav links" />
     <MESSAGE value="Add Course List" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Course List" />
+    <MESSAGE value="link button and course list" />
+    <option name="LAST_COMMIT_MESSAGE" value="link button and course list" />
   </component>
 </project>
